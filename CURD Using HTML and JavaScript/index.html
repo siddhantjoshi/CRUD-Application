@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>CURD Application</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+		<table>
+			<td>
+				<form autocomplete="off" onSubmit="event.preventDefault() ; onSumitForm();" >
+					<div>
+						<label>User Name </label>
+						<input type="text" name="name" id="name" required>
+					</div>
+					<div>
+						<label>User Email </label>
+						<input type="email" name="email" id="email" required>
+					</div>
+					<div class="form-action-button">
+						<input type="submit" value="submit">
+					</div>
+				</form>
+			</td>
+			<td>
+				<table class="list" id="table">
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Email</th>
+							<th>Edit</th>
+							<th>Delete</th>
+						</tr>
+					</thead>
+					<tbody>
+					</tbody>
+				</table>
+			</td>
+		</table>
+		<script src="script/script.js"></script>
+	</body>
+</html>
