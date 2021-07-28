@@ -1,4 +1,4 @@
-# CRUD Website
+# CRUD Website https://siddhantjoshi.github.io/CRUD-Application/
 #### CURD is an acronym formed as ' C-Create, R-Read, D-delete '.<br> Resently i learned web technologies like PHP, HTML, JavaScript thus to show my skills i createdd this spplication.
 
 # Things I learned
